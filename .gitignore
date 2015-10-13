@@ -39,4 +39,4 @@ Thumbs.db
 # Project Specific files #
 ######################
 bower_components
-mode_modules
+node_modules
