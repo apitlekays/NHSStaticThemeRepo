@@ -1,0 +1,259 @@
+/*Basic CSS Setup*/
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h5,h2,h3{
+	font-family: Walter Turncoat; 
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h5 {
+	font-size: 0.9em;
+}
+
+h6 {
+	font-size: 0.7em;
+}
+
+body p {
+	font-family: Oxygen;
+}
+
+.walter {
+	font-family: Walter Turncoat;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: transparent;
+}
+
+.top-bar-section ul li{
+	background: transparent;
+}
+
+
+.disclaimer {
+	position: relative;
+	top: 100px;
+}
+
+.blue {
+	background-color: #4ACCD4;
+	height: 20px;
+}
+.green {
+	background-color: #B8E986;
+	height: 20px;
+}
+.orange {
+	background-color: #F5A623;
+	height: 20px;
+}
+
+.wellcome {
+	position: relative;
+	top: 60px;
+}
+
+.hofm {
+	position: relative;
+	top: 35px;
+}
+
+.title-area, .contain-to-grid, .top-bar, .top-bar-section ul{
+	background:transparent ;
+	z-index: 1;
+}
+
+*:focus {
+    outline: 0;
+}
+
+/*Basic CSS Setup Ends*/
+/*HomePage CSS*/
+#wrapper {
+    background-image: url(../img/mainpage_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    z-index: 0;
+    position:relative;
+    top:-45px;
+}
+
+.mainText {
+	padding-top: 200px;
+	padding-bottom: 250px;
+	font-family: Rock Salt;
+	font-size: 4em;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+	
+}
+
+.tabulated-area {
+	position:relative;
+	top:-102px;
+}
+
+.tab-center{
+	padding-left: 15%;
+}
+
+.tab-center-small{
+	padding-left: 15%;
+}
+
+.tabs .tab-title a, .tabs dd a {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.tab-title a:hover {
+	color: #000000;
+}
+
+.tabs a {
+	border-radius: 4px 4px 0px 0px;
+	background-color: rgba(0, 0, 0, 0.96);
+	z-index: -10;
+}
+/*HomePage CSS Ends*/
+/*ObjectPage CSS Setup*/
+.header_wrapper {
+    background-image: url(../img/mainpage_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    z-index: 0;
+    position:relative;
+    top:-45px;
+}
+
+.smallText {
+	padding-top: 80px;
+	padding-bottom: 100px;
+	font-family: Rock Salt;
+	font-size: 1.2em;
+	color: #ffffff;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+	
+}
+
+.header_subnav {
+	float: none;
+	position: relative;
+	margin-bottom: 0;
+	top: -80px; }
+	.header_subnav li:nth-child(even) {
+		float: none;
+		display: inline-block;
+		background-color: rgba(255, 255, 255, 0.83);
+		border-radius: 4px 4px 0px 0px;
+		padding: 5px; }
+	.header_subnav li:nth-child(odd) {
+		float: none;
+		display: inline-block;
+		background-color: rgba(255, 255, 255, 0.38);
+		border-radius: 4px 4px 0px 0px;
+		position: relative;
+		top: 5px;
+		padding: 5px; }
+	.header_subnav li:nth-child(odd):hover {
+		top: 0;}
+		.header_subnav li a {
+			padding: 0.9rem 1rem 0.75rem;
+			font-size: 0.875rem;
+			color: #000000; 
+		}
+		
+.object_links li {
+	float: none;
+	font-size: 0.8em;
+	display: inline-block;
+	background-color: #4ACCD4;
+	border-radius: 4px 4px 4px 4px;
+	position: relative;
+	top: 10px;
+	padding-left:5px;
+	padding-right: 5px; 
+}
+
+.related_objects {
+	position: relative;
+	top: 30px;
+	padding-bottom: 50px;
+}
+
+/*ObjectPage CSS Ends*/
+/*Blog CSS Setup*/
+.date {
+	background-color: #5ab200;
+	color: #fff;
+	width: 70px;
+	height: 80px;
+	border-radius: 4px 4px 4px 4px;
+	margin-bottom: 20px;
+}
+
+.date li{
+	list-style: none;
+	padding-right: 10px;
+}
+
+.date li:nth-child(odd){
+	font-size: 2em;
+}
+/*Blog CSS Ends*/
+/*Contact Us CSS Setup*/
+.panel_contactus {
+	margin-bottom: 1.25rem;
+	padding: 1.25rem;
+	background: #FFE6E6;
+	color: #333333; 
+}
+/*Contact Us CSS Ends*/
+/*Encyclopaedia Index CSS Setup*/
+.index_ency{
+	position:relative;
+	left:-80px;
+}
+
+.index_ency dl{
+	background-color: #00939a;
+	padding: 10px;
+	margin: 0px;
+}
+
+.index_ency dl a{
+	color: #ffffff;
+	font-size: 1em;
+}
+
+.index_ency.active{
+	background: #00cbd5;
+}
+/*Encyclopaedia Index CSS Ends*/
+
+@media screen and (max-width: 40.0625em){
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: #333;
+	}
+
+	.top-bar-section ul li {
+		background: #333;
+	}
+}
