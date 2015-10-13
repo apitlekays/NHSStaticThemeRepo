@@ -9,11 +9,7 @@ To set up this project on your local machine, follow this guide:
 `npm install -g bower`
 * open up terminal on the project folder and initiate Bower install
 `bower install`
-* this will pick up(download) all the files prerequisite for the project to run correctly, on your machine.
-
-
-
-
-
+* this will pick up(download) all the files (listed in bower.json file) prerequisite for the project to run correctly, on your machine.
+* after this the project should run properly on your machine
 
 ######Prepared by Hafiz Hanif, Digital Humanities Team, The University of Warwick, 2015.
