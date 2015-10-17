@@ -14,7 +14,7 @@
 			=================================================== -->
 	    <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Walter+Turncoat|Oxygen:400,300,700" rel="stylesheet" type="text/css">
 	    <!-- GOOGLE FONTS END -->
-		<link rel="stylesheet" href="assets/css/style.css" /> 
+		<link rel="stylesheet" href="assets/css/style.css" />
 		<script src="bower_components/modernizr/modernizr.js"></script>
 	</head>
 	<body>
@@ -80,18 +80,18 @@
 				<div class="row">
 					<div class="small-12 columns">
 						<ul class="small-block-grid-2 medium-block-grid-3">
-							<li><span data-tooltip aria-haspopup="true" class="has-tip" title="Theme's Name Goes Here"> <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></span></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
-							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
+							<li><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="tooltipu" title="The Theme Name Goes Here"/></li>
 						</ul>
 					</div>
 				</div> 
@@ -150,12 +150,26 @@
 			<!--Footer Ends -->
 		<!-- Loading Scripts Sections-->
 		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="assets/tipped.js"></script>
+		<link rel="stylesheet" href="assets/css/tipped.css" />
 		<script src="bower_components/fastclick/lib/fastclick.js"></script>
 		<script src="bower_components/foundation/js/foundation.js"></script>
 		<script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+
+	
+		
 		<script>
 			$(document).foundation();
 		</script>
+		<script type="text/javascript">
+		  	$(document).ready(function() {
+		    	Tipped.create('.tooltipu', {
+			    	position: 'bottom',
+			    	skin: 'blue'
+		    	});
+		  	});
+		</script>
+
 		<!-- Loading Scripts Section Ends -->
 		
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
